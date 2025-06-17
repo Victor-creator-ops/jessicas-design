@@ -1,61 +1,130 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# JESSICA'S DESIGN - Sistema de Gestão de Projetos
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Alpine.js](https://img.shields.io/badge/Alpine.js-8BC0D0?style=for-the-badge&logo=alpine.js&logoColor=white)
 
-## About Laravel
+## 📖 Sobre o Projeto
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+**JESSICA'S DESIGN** é um sistema de gestão de projetos (SGP) web, sob medida, desenvolvido para atender às necessidades específicas de escritórios de design de interiores. A plataforma foi concebida para resolver as ineficiências operacionais geradas pelo uso de ferramentas genéricas, como planilhas e e-mails, para o controle de projetos complexos.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+O sistema centraliza a comunicação, o versionamento de arquivos e o acompanhamento do ciclo de vida de cada projeto, proporcionando uma experiência premium e organizada tanto para a equipe interna quanto para o cliente final.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Este projeto foi desenvolvido como parte do Projeto Integrador do curso de Análise e Desenvolvimento de Sistemas da FATEC Indaiatuba.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## ✨ Funcionalidades Principais
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+A plataforma foi construída com base em um detalhado levantamento de requisitos, resultando nas seguintes funcionalidades:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+-   **Painel de Controle Administrativo:** Uma visão macro para a gestão do negócio, com indicadores-chave como projetos ativos, valor total dos contratos e carga de trabalho da equipe (RF06).
+-   **Gestão de Entidades:** Formulários completos para cadastro e gerenciamento de Clientes, Designers e Projetos (RF02).
+-   **Kanban de Projetos Interativo:** Um quadro visual com as fases do projeto (Inspiração, Estudo Preliminar, etc.), com funcionalidade de arrastar e soltar (drag and drop) para atualizar o status dos projetos de forma intuitiva (RF03).
+-   **Portal Exclusivo do Cliente:** Uma área restrita onde o cliente pode acompanhar o andamento do seu projeto, visualizar e baixar arquivos, e centralizar o feedback através de aprovações ou solicitações de alteração (RF04).
+-   **Fluxo de Aprovação Versionado:** A equipe pode enviar novas versões de arquivos, e o cliente pode interagir com cada uma, mantendo um histórico claro de todas as iterações (RF05).
+-   **Sistema de Notificações:** Envios automáticos de e-mail para eventos importantes, como o cadastro de um novo usuário ou o envio de um arquivo para revisão (RF07).
+-   **Controle de Acesso por Papéis:** O sistema distingue 3 tipos de usuários (Administrador, Designer, Cliente), cada um com suas permissões e visões específicas, garantindo a segurança e a privacidade dos dados (RF01).
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🛠️ Tecnologias Utilizadas
 
-### Premium Partners
+-   **Backend:** PHP 8.2+ / Laravel 11+
+-   **Frontend:** Blade, Tailwind CSS, Alpine.js
+-   **Banco de Dados:** MySQL
+-   **Servidor de Desenvolvimento:** Vite
+-   **Autenticação:** Laravel Breeze
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## 🚀 Instruções para Rodar o Projeto Localmente
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Para executar este projeto no seu ambiente de desenvolvimento, siga os passos abaixo.
 
-## Code of Conduct
+### Pré-requisitos
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+-   PHP (versão 8.2 ou superior)
+-   Composer
+-   Node.js e NPM
+-   Um servidor de banco de dados (ex: MySQL, MariaDB)
 
-## Security Vulnerabilities
+### Passo a Passo
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+1.  **Clone o Repositório:**
 
-## License
+    ```bash
+    git clone [https://github.com/Victor-creator-ops/jessicas-design.git](https://github.com/Victor-creator-ops/jessicas-design.git)
+    cd jessicas-design
+    ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+2.  **Instale as Dependências do PHP:**
+
+    ```bash
+    composer install
+    ```
+
+3.  **Instale as Dependências do JavaScript:**
+
+    ```bash
+    npm install
+    ```
+
+4.  **Configure o Ambiente:**
+    Copie o arquivo de exemplo de ambiente.
+
+    ```bash
+    cp .env.example .env
+    ```
+
+    Abra o arquivo `.env` e configure as credenciais do seu banco de dados (`DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`).
+
+5.  **Gere a Chave da Aplicação:**
+
+    ```bash
+    php artisan key:generate
+    ```
+
+6.  **Execute as Migrações e os Seeders:**
+    Este comando irá criar todas as tabelas no banco de dados e popular com os dados iniciais (fases do projeto e a conta de administrador).
+
+    ```bash
+    php artisan migrate:fresh --seed
+    ```
+
+7.  **Inicie os Servidores de Desenvolvimento:**
+    Você precisará de **dois terminais** rodando simultaneamente na pasta do projeto.
+
+    -   **No primeiro terminal**, inicie o servidor do Vite para compilar os assets:
+        ```bash
+        npm run dev
+        ```
+    -   **No segundo terminal**, inicie o servidor do Laravel:
+        ```bash
+        php artisan serve
+        ```
+
+8.  **Acesse a Aplicação:**
+    Abra o seu navegador e acesse o endereço fornecido pelo `php artisan serve` (geralmente **`http://127.0.0.1:8000`**).
+
+---
+
+## 🔑 Como Usar
+
+O sistema possui um usuário administrador padrão criado pelo seeder para que você possa começar a usar a plataforma imediatamente.
+
+-   **URL de Login:** `http://127.0.0.1:8000/login`
+-   **Email do Administrador:** `jessica.diretora@email.com`
+-   **Senha:** `password`
+
+A partir do painel do administrador, você pode começar a cadastrar novos designers, clientes e projetos.
+
+---
+
+## 📊 Estrutura do Banco de Dados
+
+O banco de dados foi modelado para refletir as entidades e relacionamentos do negócio.
+
+![Diagrama Entidade-Relacionamento](caminho/para/sua/imagem-do-der.jpg)
+Ainda vou colocar a imagem aqui.
