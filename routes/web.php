@@ -13,9 +13,8 @@ use App\Http\Controllers\PortalClienteController;
 use App\Http\Controllers\ReportController;
 
 // Rota pública principal
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'welcome')->name('home');
+
 
 // Rotas de Autenticação (Login, Registro, etc.)
 // O Laravel Breeze já cuida disso para nós.
