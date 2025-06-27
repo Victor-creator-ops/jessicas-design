@@ -90,7 +90,7 @@ Para executar este projeto no seu ambiente de desenvolvimento, siga os passos ab
     Este comando irá criar todas as tabelas no banco de dados e popular com os dados iniciais (fases do projeto e a conta de administrador).
 
     ```bash
-    php artisan migrate:fresh --seed
+    php artisan migrate --seed
     ```
 
 7.  **Inicie os Servidores de Desenvolvimento:**
@@ -121,10 +121,3 @@ O sistema possui um usuário administrador padrão criado pelo seeder para que v
 A partir do painel do administrador, você pode começar a cadastrar novos designers, clientes e projetos.
 
 ---
-
-## 📊 Estrutura do Banco de Dados
-
-O banco de dados foi modelado para refletir as entidades e relacionamentos do negócio.
-
-![Diagrama Entidade-Relacionamento](caminho/para/sua/imagem-do-der.jpg)
-Ainda vou colocar a imagem aqui.
