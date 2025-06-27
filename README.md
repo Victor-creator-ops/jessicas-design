@@ -55,7 +55,7 @@ Para executar este projeto no seu ambiente de desenvolvimento, siga os passos ab
 1.  **Clone o Repositório:**
 
     ```bash
-    git clone [https://github.com/Victor-creator-ops/jessicas-design.git](https://github.com/Victor-creator-ops/jessicas-design.git)
+    git clone https://github.com/Victor-creator-ops/jessicas-design.git
     cd jessicas-design
     ```
 
