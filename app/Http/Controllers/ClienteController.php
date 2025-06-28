@@ -119,5 +119,4 @@ class ClienteController extends Controller
 
         return view('portal.show', compact('projeto'));
     }
-
 }
